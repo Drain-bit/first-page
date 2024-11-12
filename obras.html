@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>G.Arias</title>
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"/>
+	<link rel="stylesheet" type="text/css" href="css/navegacion.css">
+	<link rel="stylesheet" type="text/css" href="css/obras.css">
+</head>
+<body bgcolor="#F2F3F4">
+	<nav><!------------nav = navegacion------------>
+		<input type="checkbox" id="check">
+		<label for="check" class="checkbtn">
+			<i class="fas fa-bars"></i>
+		</label>
+		<label class="Logo">Graciela Arias</label>
+		<ul>
+			<li><a href="index.html" >Inicio</a></li>
+			<li><a href="obras.html" class="active">Obras</a></li>
+			<li><a href="exposiciones.html">Exposiciones</a></li>
+		</ul>
+	</nav>
+	<!----------------------------------------------------------------------->
+	<div class="conteiner-obras">
+		<div class="izquierda-obras">
+			<center><p>cuadro</p></center>
+			<div class="caja">
+				<img src="obras/cuadros/Arcaneada.jpg" class="elemento" id="img01">
+				<img src="obras/cuadros/Coleccionista_de_amores.jpg" class="elemento" id="img02">
+				<img src="obras/cuadros/Eva_del_paraiso.jpg" class="elemento" id="img03">
+				<img src="obras/cuadros/La_Virgen_del_Capinurí.jpg" class="elemento" id="img04">
+				<img src="obras/craneos/ST01.jpg" class="elemento">
+				<img src="obras/craneos/ST02.jpg" class="elemento">
+				<img src="obras/craneos/ST03.jpg" class="elemento">
+			</div>
+			<p>Madera</p>
+			<div class="caja">
+				<img src="obras/madera/Cena mítica(2014).jpg" class="elemento">
+				<img src="obras/madera/Espiritu_Sobre_Madera_01.jpg" class="elemento">
+				<img src="obras/madera/El_hijo_de_la_luna.jpg" class="elemento">
+				<img src="obras/madera/Naroe_y_Kametsa_2.jpg" class="elemento">
+				<img src="obras/madera/La_creación_de_Yarina_Cocha.png" class="elemento">
+			</div>
+		</div>
+		<div class="derecha-obras">
+			<img src="obras/cuadros/Arcaneada.jpg" class="main_elemento">
+			<center><h1 id="titulo">Nombre del cuadro</h1></center>
+			<h2 id="lore">Lore del cuadro</h2>
+			<h3 id="estado">Estado del cuadro</h3>
+			<h3 id="precio">Precio</h3>
+			<h3 id="medidas">Medidas</h3>
+		</div>
+	</div>
+
+	<script type="text/javascript" src="js/selector_img.js"></script>
+</body>
+</html>

@@ -1,0 +1,45 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+
+.container{
+	display: grid;
+	grid-template-columns: auto auto;
+	grid-gap: 10px;
+}
+
+.container_2{
+	
+}
+
+.simple{
+	padding: 30px 50px;
+	font-size: 20px;
+	font-family: arial;
+}
+
+.izquierda{
+	padding: 10px 50px;
+}
+
+.derecha{
+	padding: 30px 50px;
+	font-size: 20px;
+	font-family: arial;
+}
+
+.derecha a{
+	color: blue;
+	font-size: 25px;
+	font-weight: bold;
+}
+
+.Portada{
+	padding: 5px 25px;
+}
+
+.Contexto{
+	padding: 5px 25px;
+	font-size: 20px;
+}

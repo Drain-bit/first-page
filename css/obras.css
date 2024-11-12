@@ -1,0 +1,32 @@
+div > img {
+	border-radius: 8px;
+	width: 100%;
+	height: auto;
+	/*box-shadow: 0px 0px 30px #000;*/
+}
+/*-----------------------------------------------------------*/
+.conteiner-obras{
+	display: grid;
+	grid-template-columns: 60% 40%;
+}
+
+.izquierda-obras{
+	padding: 10px 10px;
+}
+
+.derecha-obras{
+	padding: 10px 10px;
+}
+/*----------------------------------------------------------*/
+.caja{
+	display: grid;
+	/*Le decimos como se debe comportar la columna*/
+	grid-template-columns: repeat( 
+		auto-fit, minmax(150px, 1fr));
+	gap: 32px;
+}
+
+.caja img:hover{
+	transition: all 300ms;
+	transform: scale(1.35);
+}
